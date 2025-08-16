@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+
+# Streamlit & tests
+.streamlit/
+.pytest_cache/
+
+# Local secrets / backups
+*.env
+*.local.*
+aws_utils.local.*
+secrets.*
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
