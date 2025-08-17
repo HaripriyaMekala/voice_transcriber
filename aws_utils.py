@@ -4,8 +4,8 @@ import boto3
 from botocore.exceptions import BotoCoreError, ClientError, NoCredentialsError
 
 # ====== YOUR SETTINGS ======
-AWS_ACCESS_KEY_ID = "REPLACE_ME"
-AWS_SECRET_ACCESS_KEY = "REPLACE_ME"
+AWS_ACCESS_KEY_ID = "REPLACE ME"
+AWS_SECRET_ACCESS_KEY = "REPLACE ME"
 AWS_REGION            = "us-east-1"
 S3_BUCKET             = "voice-transcriber-priya-01"
 # ===========================
