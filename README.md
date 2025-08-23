@@ -11,7 +11,7 @@ AWS_S3_INPUT_BUCKET=your-input-bucket
 Your browser will open automatically.
 
 4) Use it (step-by-step) : Upload an MP3 in the Streamlit page (only .mp3 is accepted).
-Click Transcribe — the app uploads to S3 and starts AWS Transcribe.
+Click Transcribe the app uploads to S3 and starts AWS Transcribe.
 Wait while the job runs (you’ll see status in the UI).
 Read the transcript on the page and Download .txt if you want a file copy (DOCX optional).
 
@@ -21,4 +21,5 @@ Your original MP3 stored in S3.
 Transcript JSON fetched via a pre-signed URL from AWS.
 Downloads: TXT (always), DOCX (if enabled).
 
+<img width="3536" height="1542" alt="voice_to_text_two_row_clean" src="https://github.com/user-attachments/assets/bf76c7ff-b94b-49ef-8669-559a296de459" />
 
